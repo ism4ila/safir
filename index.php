@@ -3,8 +3,8 @@
 include('includes/header.php'); 
 ?>
 
+<!-- Section Héro -->
 <div id="hero" class="d-flex align-items-center justify-content-center text-white text-center py-5">
-    <img src="https://via.placeholder.com/200x100.png/E64A19/ffffff?text=Plane" alt="Airplane" class="hero-plane d-none d-md-block">
     <div class="container">
         <h1 class="display-4 fw-bold">L'accomplissement parfait de votre pèlerinage reste notre priorité !</h1>
         <p class="lead">Voyages, tourisme, billetterie et organisation de pèlerinage. Votre satisfaction est notre mission.</p>
@@ -12,41 +12,73 @@ include('includes/header.php');
     </div>
 </div>
 
+<!-- Section Services -->
 <div class="container my-5">
     <div class="row">
-        <div class="col-12 text-center mb-4">
+        <div class="col-12 text-center mb-5">
             <h2 class="fw-bold">Nos Services</h2>
+            <p class="text-muted">Découvrez comment nous pouvons vous aider à réaliser vos projets de voyage.</p>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex align-items-center py-3">
-                    <i class="bi bi-circle-fill text-warning me-3"></i>
-                    <span class="fs-5">Vente des billets d'avion</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center py-3">
-                    <i class="bi bi-circle-fill text-warning me-3"></i>
-                    <span class="fs-5">Organisation du HADJ et OUMRA</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center py-3">
-                    <i class="bi bi-circle-fill text-warning me-3"></i>
-                    <span class="fs-5">Voyages et séjours (Tourisme & affaires)</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center py-3">
-                    <i class="bi bi-circle-fill text-warning me-3"></i>
-                    <span class="fs-5">Réservation d'hôtel</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center py-3">
-                    <i class="bi bi-circle-fill text-warning me-3"></i>
-                    <span class="fs-5">Location automobiles</span>
-                </li>
-            </ul>
+    <div class="row g-4 justify-content-center">
+        <!-- Carte Service: Vente de billets d'avion -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <div class="card-icon"><i class="bi bi-airplane"></i></div>
+                    <h5 class="card-title">Vente de billets d'avion</h5>
+                    <p class="card-text">Nous trouvons pour vous les meilleures offres de vols, quelle que soit votre destination.</p>
+                    <a href="service_billets.php" class="btn">En savoir plus</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row my-5">
-        <div class="col-12 text-center">
-            <img src="https://via.placeholder.com/800x400.png/2c3e50/ffffff?text=Kaaba" alt="Kaaba" class="img-fluid rounded shadow-lg">
+
+        <!-- Carte Service: Organisation du HADJ et OUMRA -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <div class="card-icon"><i class="bi bi-moon-stars"></i></div>
+                    <h5 class="card-title">Organisation du HADJ et OUMRA</h5>
+                    <p class="card-text">Nous vous accompagnons dans votre pèlerinage avec des services complets et personnalisés.</p>
+                    <a href="service_hadj.php" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte Service: Voyages et séjours -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <div class="card-icon"><i class="bi bi-map"></i></div>
+                    <h5 class="card-title">Voyages et séjours</h5>
+                    <p class="card-text">Que ce soit pour le tourisme ou les affaires, nous organisons des séjours inoubliables.</p>
+                    <a href="service_voyages.php" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte Service: Réservation d'hôtel -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <div class="card-icon"><i class="bi bi-building"></i></div>
+                    <h5 class="card-title">Réservation d'hôtel</h5>
+                    <p class="card-text">Accédez à un large choix d'hôtels partout dans le monde, aux meilleurs tarifs.</p>
+                    <a href="service_hotels.php" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte Service: Location automobiles -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <div class="card-icon"><i class="bi bi-car-front"></i></div>
+                    <h5 class="card-title">Location automobiles</h5>
+                    <p class="card-text">Profitez de nos solutions de location de véhicules pour une liberté de mouvement totale.</p>
+                    <a href="service_location.php" class="btn">En savoir plus</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
