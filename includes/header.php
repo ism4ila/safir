@@ -32,6 +32,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="manifest" href="assets/images/site.webmanifest">
     
     <!-- Preconnect for faster loading -->
@@ -54,7 +55,7 @@
         "name": "SAFIR - Agence de Voyages et de Tourisme",
         "description": "Agence de voyages spécialisée dans l'organisation du HADJ et OUMRA, vente de billets d'avion, voyages d'affaires et tourisme.",
         "url": "https://safir-agence.com",
-        "telephone": "+683 00.00.80",
+        "telephone": "+237 222 24 30 84",
         "email": "safir.agence.cameroun@gmail.com",
         "address": {
             "@type": "PostalAddress",
@@ -184,7 +185,7 @@
                 <div class="d-lg-none navbar-contact mt-3">
                     <div class="text-center">
                         <a href="tel:+68300.00.80" class="btn btn-outline-primary btn-sm me-2">
-                            <i class="bi bi-telephone"></i> +683 00.00.80
+                            <i class="bi bi-telephone"></i> +237 222 24 30 84
                         </a>
                         <a href="mailto:safir.agence.cameroun@gmail.com" class="btn btn-outline-secondary btn-sm">
                             <i class="bi bi-envelope"></i> Email
@@ -207,7 +208,7 @@
                     <div class="col-md-4 text-end">
                         <small>
                             <a href="tel:+68300.00.80" class="text-decoration-none me-3">
-                                <i class="bi bi-telephone me-1"></i>+683 00.00.80
+                                <i class="bi bi-telephone me-1"></i>+237 222 24 30 84
                             </a>
                             <a href="mailto:safir.agence.cameroun@gmail.com" class="text-decoration-none">
                                 <i class="bi bi-envelope me-1"></i>Email

@@ -6,7 +6,7 @@
                     <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Bertoua, ENIA - Immeuble SPC, avant carrefour.aviation</p>
                 </div>
                 <div class="col-md-4 mb-3 mb-md-0">
-                    <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+683 00.00.80</p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+237 222 24 30 84</p>
                     <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i>safir.agence.cameroun@gmail.com</p>
                 </div>
             </div>
